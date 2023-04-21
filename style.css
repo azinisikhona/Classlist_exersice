@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 70;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    text-shadow: black;
+}
+table {
+    border: 1px solid black;
+    width: 70%;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+.male-under-21 {
+    background-color: gray;
+}
+.male-over-21 {
+    background-color: black;
+    color: white;
+}
+
+.female-under-21 {
+    background-color: red;
+}
+.female-over-21 {
+    background-color: pink;
+    color: black;
+}
+
+ul {
+    list-style-image: url('./image/130200-x-letter-hq-image-free.png');
+    list-style-position: outside;
+}
+
+li {
+    list-style: none;
+    padding: 10px  30px;
+    background-image: url(./image/130200-x-letter-hq-image-free.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
